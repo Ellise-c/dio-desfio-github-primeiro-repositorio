@@ -1,0 +1,22 @@
+Comandos no Git Bash - 
+os () indicam dados não fixos, mas não devem ser usados os () no gitbash
+
+ctrl L -> limpa a tela
+ls -> lista os arquivos no local aberto naquele momento
+cd (endereço do diretório) -> abre o endereço solicitado
+ls -a -> mostra os arquivos ocultos do diretorio aberto no momento
+mkdir (nome da pasta) -> cria nova pasta no diretorio
+cd.. -> sobe um nível do diretório (volta para a pasta acima da atual)
+git add * -> adiciona um arquivo a área de stage
+git commit -m "(comentário)" cria o commit do arquivo
+git init -> cria um novo repositório dentro do diretório
+git status -> verifica o status dos arquivos (alterados, removidos, pendentes de commit...)
+mv (nome do arquivo) ./ (nome de onde vai o arquivo) -> move o arquivo para um local designado
+git rm (nome do arquivo) -> remove o arquivo
+git config --list -> acessa lista de configurações
+q -> sair das configurações
+git config --global --unset (configuração que se quer apagar, exemplo user.name ou user.email) -> limpar configuração anterior
+git config --global (configuração que se deseja incluir, exemplo user.name ou user.email) -> inclui a configuação no git
+git remote -v -> lista os repositórios remotos
+git push origin master -> envia para repositório remoto
+git pull origin master -> puxa o arquivo do git para o repositório local
